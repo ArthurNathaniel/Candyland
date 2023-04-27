@@ -229,22 +229,15 @@
             <div class="swiper mySwiper">
               <div class="swiper-wrapper">
                 <div class="swiper-slide">
-                  <img src="https://placehold.jp/550x400.png" alt="" />
+                  <img src="images/school-children-one.jpg" alt="school-children-one" style="border-radius: 15px;" />
                 </div>
                 <div class="swiper-slide">
-                  <img src="https://placehold.jp/550x400.png" alt="" />
+                  <img src="images/school-children-two.jpg" alt="school-children-two"  style="border-radius: 15px;"/>
                 </div>
                 <div class="swiper-slide">
-                  <img src="https://placehold.jp/550x400.png" alt="" />
-                </div>
-                <div class="swiper-slide">
-                  <img src="https://placehold.jp/550x400.png" alt="" />
-                </div>
-                <div class="swiper-slide">
-                  <img src="https://placehold.jp/550x400.png" alt="" />
-                </div>
+                  <img src="images/school-children-three.jpg" alt="school-children-three" style="border-radius: 15px;" />
+                </div>                
               </div>
-              <!-- <div class="swiper-pagination"></div> -->
             </div>
           </div>
         </div>
