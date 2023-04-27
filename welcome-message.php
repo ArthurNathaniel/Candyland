@@ -33,30 +33,26 @@
     <div class="overflow-hidden">
       <?php include 'navbar.php'; ?>
       <div id="welcome-hero">
-        <div class="text-home">
-          <h1>
-            Better future
-            <br />
-            for your kids
-          </h1>
+        <div class="text-welcome">
+          <h1>Welcome to Candyland School</h1>
           <p>
-            We just don't give our students only lecture but real life <br />
-            experiment, workshops & field experience.
+            Join us on an exciting educational journey filled with endless <br>
+            possibilities
           </p>
-          <div class="admission-btn">
-            <a href="" class="admission-btn-"
-              ><i class="fas fa-user-graduate"></i> Admission</a
-            >
-          </div>
+          
         </div>
       </div>
 
       <section>
         <div class="welcome-message row">
           <div class="welcome-image col-md-6">
-            <img src="" alt="school-principal or head master image">
+            <img
+              src="images/Mistress-candyland.png"
+              alt="school-principal or head master image"
+            />
           </div>
           <div class="welcome-text col-md-6">
+            <h2>Welcome Message from the Principal</h2>
             <p>
               It is my pleasure to welcome you all to Candyland School. Our
               institution is committed to providing the highest quality

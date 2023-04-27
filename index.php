@@ -90,7 +90,7 @@
       </section>
 
       <section>
-        <div class="access-home row">
+        <div class="access-home row gy-5">
           <div class="access-image col-md-5">
             <img src="images/candyland-baby.png" alt="" style="width: 100%" />
           </div>
@@ -178,7 +178,7 @@
       </section>
 
       <section>
-        <div class="philosophy row">
+        <div class="philosophy row gy-5">
           <div class="col-md-6 philosophy-text">
             <h3>
               Our philosophy is learning through play as we offer a stimulating
@@ -225,7 +225,7 @@
             </div>
           </div>
 
-          <div class="col-md-6 philosophy-text">
+          <div class="col-md-6 philosophy-image">
             <div class="swiper mySwiper">
               <div class="swiper-wrapper">
                 <div class="swiper-slide">
