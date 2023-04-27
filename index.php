@@ -52,7 +52,7 @@
       </div>
 
       <section>
-        <div class="our-academic-home row">
+        <div class="our-academic-home row gy-5">
           <div class="academic-home-heading col-md-4">
             <h2>Our Academics</h2>
             <p>
