@@ -47,7 +47,7 @@
         <div class="welcome-message row gy-5">
           <div class="welcome-image col-md-6">
             <img
-              src="images/Mistress-candyland.png"
+              src="images/mistress-candyland.png"
               alt="school-principal or head master image"
             />
           </div>
