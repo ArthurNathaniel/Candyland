@@ -24,7 +24,8 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
     />
-
+    <!--Animate On scroll-->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <!--Custom CSS-->
     <link rel="stylesheet" href="style.css" />
   </head>
@@ -229,14 +230,26 @@
             <div class="swiper mySwiper">
               <div class="swiper-wrapper">
                 <div class="swiper-slide">
-                  <img src="images/school-children-one.jpg" alt="school-children-one" style="border-radius: 15px;" />
+                  <img
+                    src="images/school-children-one.jpg"
+                    alt="school-children-one"
+                    style="border-radius: 15px"
+                  />
                 </div>
                 <div class="swiper-slide">
-                  <img src="images/school-children-two.jpg" alt="school-children-two"  style="border-radius: 15px;"/>
+                  <img
+                    src="images/school-children-two.jpg"
+                    alt="school-children-two"
+                    style="border-radius: 15px"
+                  />
                 </div>
                 <div class="swiper-slide">
-                  <img src="images/school-children-three.jpg" alt="school-children-three" style="border-radius: 15px;" />
-                </div>                
+                  <img
+                    src="images/school-children-three.jpg"
+                    alt="school-children-three"
+                    style="border-radius: 15px"
+                  />
+                </div>
               </div>
             </div>
           </div>
@@ -282,16 +295,19 @@
               </div>
               <h3>Parents</h3>
               <p>Our education partners</p>
-    
             </div>
           </div>
         </div>
       </section>
-            <?php include 'call-to-action.php'; ?>
-                        <?php include 'footer.php'; ?>
-
-
+      <?php include 'call-to-action.php'; ?>
+      <?php include 'footer.php'; ?>
     </div>
+    
+    <!--Animate on Scroll-->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 
     <!-- Swiper JS -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
