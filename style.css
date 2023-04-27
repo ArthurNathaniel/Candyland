@@ -76,7 +76,7 @@ body {
 
 .our-academic-home {
     padding: 0 5%;
-    padding-block: 50px;
+    padding-top: 50px;
 }
 
 .group {
@@ -100,7 +100,7 @@ body {
     background-color: #f9f8f4;
     padding: 0 5%;
     padding-block: 50px;
-    margin-bottom: 50px;
+    margin-block: 50px;
 }
 
 .circle {
@@ -471,4 +471,12 @@ footer h3 {
     .box{
         margin-bottom: 30px;
     }
+
+    /* Welcome Message */
+    .welcome-message{
+        display: block;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .w
 }

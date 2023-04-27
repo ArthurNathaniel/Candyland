@@ -44,7 +44,7 @@
       </div>
 
       <section>
-        <div class="welcome-message row">
+        <div class="welcome-message row gy-5">
           <div class="welcome-image col-md-6">
             <img
               src="images/Mistress-candyland.png"
