@@ -34,17 +34,20 @@
     <div class="overflow-hidden">
       <?php include 'navbar.php'; ?>
       <div id="hero">
-        <div class="text-home">
-          <h1>
+        <div class="text-home" >
+          <h1 data-aos="zoom-in"
+     data-aos-duration="1000">
             Better future
             <br />
             for your kids
           </h1>
-          <p>
+          <p data-aos="zoom-in"
+     data-aos-duration="2000">
             We just don't give our students only lecture but real life <br />
             experiment, workshops & field experience.
           </p>
-          <div class="admission-btn">
+          <div class="admission-btn" data-aos="zoom-in"
+     data-aos-duration="3000">
             <a href="" class="admission-btn-"
               ><i class="fas fa-user-graduate"></i> Admission</a
             >
@@ -54,14 +57,14 @@
 
       <section>
         <div class="our-academic-home row gy-5">
-          <div class="academic-home-heading col-md-4">
+          <div class="academic-home-heading col-md-4" data-aos="fade-up" data-aos-duration="1000">
             <h2>Our Academics</h2>
             <p>
               Our rigorous academic programs are designed to challenge and
               inspire students to achieve their full potential
             </p>
           </div>
-          <div class="col-md-8 group">
+          <div class="col-md-8 group" data-aos="fade-down" data-aos-duration="1000">
             <div class="box">
               <h1><i class="fas fa-baby"></i></h1>
               <h2>Pre-School</h2>
@@ -92,10 +95,10 @@
 
       <section>
         <div class="access-home row gy-5">
-          <div class="access-image col-md-5">
+          <div class="access-image col-md-5" data-aos="fade-right">
             <img src="images/candyland-baby.png" alt="" style="width: 100%" />
           </div>
-          <div class="access-text col-md-7">
+          <div class="access-text col-md-7" data-aos="fade-left">
             <h3>
               We aim to provide a top-notch educational center that meets global
               standards.
@@ -107,7 +110,8 @@
               exceptional learning experience that nurtures their overall growth
               and development. Our core values of teaching and learning include:
             </p>
-            <div class="list- row">
+            <div class="list- row" data-aos="fade-up"
+     data-aos-duration="3000">
               <div class="col-md-6">
                 <li>
                   <i
@@ -180,7 +184,7 @@
 
       <section>
         <div class="philosophy row gy-5">
-          <div class="col-md-6 philosophy-text">
+          <div class="col-md-6 philosophy-text" data-aos="fade-down-right">
             <h3>
               Our philosophy is learning through play as we offer a stimulating
               environment for children.
@@ -226,7 +230,7 @@
             </div>
           </div>
 
-          <div class="col-md-6 philosophy-image">
+          <div class="col-md-6 philosophy-image" data-aos="fade-down-left">
             <div class="swiper mySwiper">
               <div class="swiper-wrapper">
                 <div class="swiper-slide">
@@ -302,7 +306,7 @@
       <?php include 'call-to-action.php'; ?>
       <?php include 'footer.php'; ?>
     </div>
-    
+
     <!--Animate on Scroll-->
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
