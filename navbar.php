@@ -1,0 +1,56 @@
+<nav class="navbar navbar-expand-lg  ">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+            <img src="images/logo.png" alt="cindyland-logo" >
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="#">Home</a>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link " href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        About Us <i class="fa-solid fa-angle-down"></i>
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="#">Welcome Message</a></li>
+                        <li><a class="dropdown-item" href="#">Our Vision & Mission</a></li>
+                        <li><a class="dropdown-item" href="#">Facilities</a></li>
+                        <li><a class="dropdown-item" href="#">Photo Gallery</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link " href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Academics <i class="fa-solid fa-angle-down"></i>
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="#">Pre-School</a></li>
+                        <li><a class="dropdown-item" href="#">Primary</a></li>
+                        <li><a class="dropdown-item" href="#">JHS</a></li>
+                    </ul>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link " href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Admission <i class="fa-solid fa-angle-down"></i>
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="#">Admission Procedure</a></li>
+                        <li><a class="dropdown-item" href="#">Admission Policy</a></li>
+
+                    </ul>
+                </li>
+                <!-- <li class="nav-item">
+                    <a class="nav-link " aria-current="page" href="#">News & Events</a>
+                </li> -->
+            </ul>
+            <div class="btn-contact">
+                <a href="">Contact</a>
+            </div>
+        </div>
+    </div>
+</nav>
