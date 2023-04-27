@@ -24,11 +24,11 @@
                 </ul>
             </div>
             <div class="col-md-3">
-                <h5>Connect with Us</h5>
-                <ul class="list-inline">
-                    <li class="list-inline-item"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                    <li class="list-inline-item"><a href="#"><i class="fab fa-twitter"></i></a></li>
-                    <li class="list-inline-item"><a href="#"><i class="fab fa-instagram"></i></a></li>
+                <h3>Connect with Us</h3>
+                <ul class="list-inline lh">
+                    <li class="list-inline-item"><a href="#"><i class="fab fa-facebook-f" style="font-size: 30px;"></i></a></li>
+                    <li class="list-inline-item"><a href="#"><i class="fab fa-twitter" style="font-size: 30px;"></i></a></li>
+                    <li class="list-inline-item"><a href="#"><i class="fab fa-instagram" style="font-size: 30px;"></i></a></li>
                 </ul>
             </div>
         </div>
