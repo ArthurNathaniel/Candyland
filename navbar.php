@@ -17,7 +17,7 @@
                         About Us <i class="fa-solid fa-angle-down"></i>
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <li><a class="dropdown-item" href="#">Welcome Message</a></li>
+                        <li><a class="dropdown-item" href="welcome-message.php">Welcome Message</a></li>
                         <li><a class="dropdown-item" href="#">Our Vision & Mission</a></li>
                         <li><a class="dropdown-item" href="#">Facilities</a></li>
                         <li><a class="dropdown-item" href="#">Photo Gallery</a></li>
