@@ -34,20 +34,21 @@
     <div class="overflow-hidden">
       <?php include 'navbar.php'; ?>
       <div id="hero">
-        <div class="text-home" >
-          <h1 data-aos="zoom-in"
-     data-aos-duration="1000">
+        <div class="text-home">
+          <h1 data-aos="zoom-in" data-aos-duration="1000">
             Better future
             <br />
             for your kids
           </h1>
-          <p data-aos="zoom-in"
-     data-aos-duration="2000">
+          <p data-aos="zoom-in" data-aos-duration="2000">
             We just don't give our students only lecture but real life <br />
             experiment, workshops & field experience.
           </p>
-          <div class="admission-btn" data-aos="zoom-in"
-     data-aos-duration="3000">
+          <div
+            class="admission-btn"
+            data-aos="zoom-in"
+            data-aos-duration="3000"
+          >
             <a href="" class="admission-btn-"
               ><i class="fas fa-user-graduate"></i> Admission</a
             >
@@ -57,14 +58,22 @@
 
       <section>
         <div class="our-academic-home row gy-5">
-          <div class="academic-home-heading col-md-4" data-aos="fade-up" data-aos-duration="1000">
+          <div
+            class="academic-home-heading col-md-4"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+          >
             <h2>Our Academics</h2>
             <p>
               Our rigorous academic programs are designed to challenge and
               inspire students to achieve their full potential
             </p>
           </div>
-          <div class="col-md-8 group" data-aos="fade-down" data-aos-duration="1000">
+          <div
+            class="col-md-8 group"
+            data-aos="fade-down"
+            data-aos-duration="1000"
+          >
             <div class="box">
               <h1><i class="fas fa-baby"></i></h1>
               <h2>Pre-School</h2>
@@ -110,8 +119,7 @@
               exceptional learning experience that nurtures their overall growth
               and development. Our core values of teaching and learning include:
             </p>
-            <div class="list- row" data-aos="fade-up"
-     data-aos-duration="3000">
+            <div class="list- row" data-aos="fade-up" data-aos-duration="3000">
               <div class="col-md-6">
                 <li>
                   <i
@@ -177,7 +185,9 @@
             <br />
             <br />
 
-            <a href="" class="access-btn">Read more</a>
+            <a href="" class="access-btn" data-aos="fade-down-right"
+              >Read more</a
+            >
           </div>
         </div>
       </section>
@@ -264,7 +274,12 @@
         <div class="stats">
           <div class="stats-whole">
             <div class="stats-group">
-              <div class="stats-one">
+              <div
+                class="stats-one"
+                data-aos="zoom-in-right"
+                data-aos-easing="linear"
+                data-aos-duration="1000"
+              >
                 <i class="fas fa-chalkboard fa-beat-fade"></i>
               </div>
               <h3>Our Classroom</h3>
@@ -274,7 +289,10 @@
 
           <div class="stats-whole">
             <div class="stats-group">
-              <div class="stats-one">
+              <div class="stats-one"
+              data-aos="zoom-in-left"
+                data-aos-easing="linear"
+                data-aos-duration="1000">
                 <i class="fas fa-user-graduate fa-beat-fade"></i>
               </div>
               <h3>Our Pupil</h3>
@@ -284,7 +302,10 @@
 
           <div class="stats-whole">
             <div class="stats-group">
-              <div class="stats-one">
+              <div class="stats-one"
+              data-aos="zoom-out"
+                data-aos-easing="linear"
+                data-aos-duration="1000">
                 <i class="fas fa-chalkboard-teacher fa-beat-fade"></i>
               </div>
               <h3>Our Teachers</h3>
@@ -294,7 +315,10 @@
 
           <div class="stats-whole">
             <div class="stats-group">
-              <div class="stats-one">
+              <div class="stats-one"
+              data-aos="zoom-in"
+                data-aos-easing="linear"
+                data-aos-duration="1000">
                 <i class="fas fa-users fa-beat-fade"></i>
               </div>
               <h3>Parents</h3>
