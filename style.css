@@ -338,7 +338,7 @@ footer h3 {
 .whole-vm {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
     padding: 0 5%;
 
 }
@@ -382,11 +382,65 @@ footer h3 {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 }
 
-.our-mission li{
+.our-mission li {
     list-style-type: none;
 }
-.change{
+
+.change {
     color: #fc5a5b;
+}
+
+/* Facilities */
+.facilities {
+    margin: 0 5%;
+    margin-block: 50px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 50px;
+}
+
+.heading-facilities {
+    margin-bottom: 20px;
+    color: #f9f8f4;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.heading-facilities h3 {
+    background-color: #725efe;
+    padding: 15px;
+    width: 28%;
+}
+
+.facilities-icon {
+    position: relative;
+    z-index: -100;
+    margin-top: -40px;
+    right: 10px;
+    text-align: right;
+    color: #561766;
+    opacity: 50%;
+}
+
+/* Photo Gallery */
+.photo {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 0 10%;
+    margin-bottom: 50px;
+}
+
+.gallery {
+    width: 95%;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.gallery img {
+    width: 100%;
+}
+/* Academics */
+.academics{
+    padding: 0 5%;
+    margin-top: 50px;
 }
 
 @media only screen and (max-width: 1200px) {

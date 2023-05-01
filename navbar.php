@@ -19,8 +19,8 @@
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <li><a class="dropdown-item" href="welcome-message.php">Welcome Message</a></li>
                         <li><a class="dropdown-item" href="mission.php">Our Vision & Mission</a></li>
-                        <li><a class="dropdown-item" href="#">Facilities</a></li>
-                        <li><a class="dropdown-item" href="#">Photo Gallery</a></li>
+                        <li><a class="dropdown-item" href="facilities.php">Facilities</a></li>
+                        <!-- <li><a class="dropdown-item" href="gallery.php">Photo Gallery</a></li> -->
                     </ul>
                 </li>
                 <li class="nav-item dropdown">
@@ -28,9 +28,9 @@
                         Academics <i class="fa-solid fa-angle-down"></i>
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <li><a class="dropdown-item" href="#">Pre-School</a></li>
-                        <li><a class="dropdown-item" href="#">Primary</a></li>
-                        <li><a class="dropdown-item" href="#">JHS</a></li>
+                        <li><a class="dropdown-item" href="pre-school.php">Pre-School</a></li>
+                        <li><a class="dropdown-item" href="primary.php">Primary</a></li>
+                        <li><a class="dropdown-item" href="jhs.php">JHS</a></li>
                     </ul>
                 </li>
 
@@ -45,7 +45,7 @@
                     </ul>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link " aria-current="page" href="#">News & Events</a>
+                    <a class="nav-link " aria-current="page" href="gallery.php">Photo Gallery</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link " aria-current="page" href="#">Contact Us</a>
