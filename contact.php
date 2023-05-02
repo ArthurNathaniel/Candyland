@@ -13,6 +13,8 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
     <!-- lightbox CDN -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.1/css/lightbox.min.css" />
+    <!--Animate On scroll-->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <!--Custom CSS-->
     <link rel="stylesheet" href="style.css" />
 </head>
@@ -22,10 +24,7 @@
         <?php include 'navbar.php'; ?>
         <div id="welcome-hero">
             <div class="text-welcome">
-                <h1>Contact Us</h1>
-                <!-- <p>
-                    A collection of our school's photos showcasing our activities and events
-                </p> -->
+                <h1 data-aos="zoom-in" data-aos-duration="1000">Contact Us</h1>
             </div>
         </div>
 
@@ -38,27 +37,27 @@
 
         <section>
             <div class="row gy-5 contact-form">
-                <div class="col-md-8">
+                <div class="col-md-8 mee">
                     <form action="" class="row me-form">
                         <div class="col-md-12" style="margin-bottom: 20px;">
                             <h3>Send Message</h3>
 
                         </div>
-                        <div class="form_group col-md-6">
+                        <div class="form_group col-md-6 mee">
 
                             <input type="text" placeholder="Your Name" required>
                         </div>
 
-                        <div class="form_group col-md-6">
+                        <div class="form_group col-md-6 mee">
 
                             <input type="email" placeholder="Email" required>
                         </div>
 
-                        <div class="form_group col-md-6">
+                        <div class="form_group col-md-6 mee">
 
                             <input type="number" min="0" placeholder="Phone Number" required>
                         </div>
-                        <div class="form_group col-md-6">
+                        <div class="form_group col-md-6 mee">
 
                             <input type="text" placeholder="Subject" required>
                         </div>
@@ -73,9 +72,9 @@
                 </div>
 
 
-                <div class="col-md-4">
+                <div class="col-md-4 mee">
                     <div class="row">
-                        <div class="col-md-12 boxes">
+                        <div class="col-md-12 boxes mee">
                             <h6>Phone Number:</h6>
                             <p>
                                 <a href="tel:+233556120878" style="text-decoration:none; color:#000;">
@@ -89,13 +88,12 @@
                                 </a></p>
                         </div>
 
-                        <div class="col-md-12 boxes">
+                        <div class="col-md-12 boxes mee">
                             <h6>Email Address:</h6>
-                            <p><a href="mailto:" style="text-decoration: none; color:#000;"> <i class="fas fa-envelope"></i>
-                                    candylandbabyworld@yahoo.com</a></p>
+                            <p><a href="mailto:" style="text-decoration: none; color:#000;"> <i class="fas fa-envelope"></i>candylandbabyworld@yahoo.com</a></p>
                         </div>
 
-                        <div class="col-md-12 boxes">
+                        <div class="col-md-12 boxes mee">
                             <h6>Location:</h6>
                             <p><i class="fas fa-map-marker-alt"></i>
                                 <a href="https://goo.gl/maps/q9R5W8CkLkNfwH15A" style="color:#000; text-decoration:none;">
@@ -116,6 +114,10 @@
         <?php include 'footer.php'; ?>
     </div>
 
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 
     <!-- lightbox Script -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>

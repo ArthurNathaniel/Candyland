@@ -49,6 +49,7 @@ body {
     display: flex;
     flex-direction: column;
     padding-top: 3%;
+    text-shadow: -2px 1px 2px rgba(0, 0, 0, 0.14);
 }
 
 .text-home h1 {
@@ -689,4 +690,39 @@ footer h3 {
         margin: 0 auto;
         margin-top: 100px;
     }
+
+    /* facilities */
+.heading-facilities h3 {
+    background-color: #725efe;
+    padding: 15px;
+    width: 100%;
+}
+
+/* Photo gallery */
+.photo{
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+}
+.gallery{
+    display: block;
+        width: 100%;
+        margin: 0 auto;
+}
+.gallery img{
+    margin-top: 40px;
+}
+.contact-form{
+    display: block;
+        width: 100%;
+        margin: 0 auto;
+}
+.me-form{
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+}
+.mee{
+    width: 100%;
+}
 }

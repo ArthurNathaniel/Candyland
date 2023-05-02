@@ -11,8 +11,8 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous" />
   <!-- Link Swiper's CSS -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
-
-  <!--Custom CSS-->
+  <!--Animate On scroll-->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" / <!--Custom CSS-->
   <link rel="stylesheet" href="style.css" />
 </head>
 
@@ -21,12 +21,12 @@
     <?php include 'navbar.php'; ?>
     <div id="welcome-hero">
       <div class="text-welcome">
-        <h1>Facilities</h1>
-        <p>State-of-the-Art Facilities, Where Learning Meets Innovation.</p>
+        <h1 data-aos="zoom-in" data-aos-duration="1000">Facilities</h1>
+        <p data-aos="zoom-in" data-aos-duration="1200">State-of-the-Art Facilities, Where Learning Meets Innovation.</p>
       </div>
     </div>
     <section>
-      <div class="facilities">
+      <div class="facilities" data-aos="flip-up">
         <div class="whole-facilities">
           <div class="heading-facilities">
             <h3>Modern Classroom</h3>
@@ -50,7 +50,7 @@
         </div>
       </div>
 
-      <div class="facilities">
+      <div class="facilities" data-aos="flip-up">
         <div class="whole-facilities">
           <div class="heading-facilities">
             <h3>Computer Laboratory</h3>
@@ -71,7 +71,7 @@
         </div>
       </div>
 
-      <div class="facilities">
+      <div class="facilities" data-aos="flip-up">
         <div class="whole-facilities">
           <div class="heading-facilities">
             <h3>Library</h3>
@@ -94,7 +94,7 @@
         </div>
       </div>
 
-      <div class="facilities">
+      <div class="facilities" data-aos="flip-up">
         <div class="whole-facilities">
           <div class="heading-facilities">
             <h3>Playground</h3>
@@ -117,7 +117,7 @@
         </div>
       </div>
 
-      <div class="facilities">
+      <div class="facilities" data-aos="flip-up">
         <div class="whole-facilities">
           <div class="heading-facilities">
             <h3>Cafeterias</h3>
@@ -142,7 +142,10 @@
     <?php include 'call-to-action.php'; ?>
     <?php include 'footer.php'; ?>
   </div>
-
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
   <!-- Swiper JS -->
   <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
 

@@ -13,6 +13,8 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
     <!-- lightbox CDN -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.1/css/lightbox.min.css" />
+    <!--Animate On scroll-->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <!--Custom CSS-->
     <link rel="stylesheet" href="style.css" />
 </head>
@@ -22,8 +24,8 @@
         <?php include 'navbar.php'; ?>
         <div id="welcome-hero">
             <div class="text-welcome">
-                <h1>Admission Procedure</h1>
-                <p>
+                <h1 data-aos="zoom-in" data-aos-duration="1000">Admission Procedure</h1>
+                <p data-aos="zoom-in" data-aos-duration="1200">
                     Learn how to get your child enrolled at Candyland School through our admission process.
                 </p>
             </div>
@@ -66,7 +68,10 @@
         <?php include 'call-to-action.php'; ?>
         <?php include 'footer.php'; ?>
     </div>
-
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
     <!-- lightbox Script -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.1/js/lightbox.min.js"></script>
