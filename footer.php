@@ -16,10 +16,10 @@
             <div class="col-md-3 foot">
                 <h3>Quick Links</h3>
                 <ul class="list-unstyled lh">
-                    <li><a href="#">Our Vision & Mission</a></li>
+                    <li><a href="mission.php">Our Vision & Mission</a></li>
                     <li><a href="welcome-message.php">Welcome Message</a></li>
-                    <li><a href="#">Facilities</a></li>
-                    <li><a href="#">News & Events</a></li>
+                    <li><a href="facilities.php">Facilities</a></li>
+                    <li><a href="gallery.php">Photo Gallery</a></li>
                 </ul>
             </div>
             <div class="col-md-3 foot">

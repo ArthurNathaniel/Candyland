@@ -39,7 +39,7 @@
                         Admission <i class="fa-solid fa-angle-down"></i>
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <li><a class="dropdown-item" href="#">Admission Procedure</a></li>
+                        <li><a class="dropdown-item" href="admission-procedures.php">Admission Procedure</a></li>
                         <li><a class="dropdown-item" href="admission-policy.php">Admission Policy</a></li>
 
                     </ul>
