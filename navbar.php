@@ -40,7 +40,7 @@
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <li><a class="dropdown-item" href="#">Admission Procedure</a></li>
-                        <li><a class="dropdown-item" href="#">Admission Policy</a></li>
+                        <li><a class="dropdown-item" href="admission-policy.php">Admission Policy</a></li>
 
                     </ul>
                 </li>
@@ -48,7 +48,7 @@
                     <a class="nav-link " aria-current="page" href="gallery.php">Photo Gallery</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link " aria-current="page" href="#">Contact Us</a>
+                    <a class="nav-link " aria-current="page" href="contact.php">Contact Us</a>
                 </li>
             </ul>
             
