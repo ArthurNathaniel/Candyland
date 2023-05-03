@@ -23,7 +23,7 @@
   <div class="overflow-hidden">
     <?php include 'navbar.php'; ?>
     <div id="welcome-hero">
-      <div class="text-welcome">
+      <div class="text-pre-school">
         <h1 data-aos="zoom-in" data-aos-duration="1000">Pre-School</h1>
         <p data-aos="zoom-in" data-aos-duration="1200">Early Learning at Candyland School</p>
       </div>

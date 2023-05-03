@@ -21,39 +21,39 @@
     <div class="overflow-hidden">
         <?php include 'navbar.php'; ?>
         <div id="welcome-hero">
-            <div class="text-welcome">
+            <div class="text-pg">
                 <h1>Photo Gallery</h1>
-                <p>
+                <!-- <p>
                     A collection of our school's photos showcasing our activities and events
-                </p>
+                </p> -->
             </div>
         </div>
 
         <section>
             <div class="photo">
                 <div class="gallery">
-                    <a href="https://placehold.jp/1200x750.png" data-lightbox="gallery" data-title="Candyland School Students" download>
-                        <img src="https://placehold.jp/400x350.png" alt="Photo of a student in candyland School">
+                    <a href="https://cdn.discordapp.com/attachments/1045730053041946755/1103244653475680296/life-4.jpg" data-lightbox="gallery" data-title="Candyland School Students" download>
+                        <img src="images/g-1.jpg" alt="Photo of a student in candyland School">
                     </a>
                 </div>
                 <div class="gallery">
-                    <a href="https://placehold.jp/1200x750.png" data-lightbox="gallery" data-title="Candyland School Students" download>
-                        <img src="https://placehold.jp/400x350.png" alt="Photo of a student in candyland School">
+                    <a href="https://cdn.discordapp.com/attachments/1045730053041946755/1103244653161091113/candy-banner-3.jpg" data-lightbox="gallery" data-title="Candyland School Students" download>
+                        <img src="images/g-2.jpg" alt="Photo of a student in candyland School">
                     </a>
                 </div>
                 <div class="gallery">
-                    <a href="https://placehold.jp/1200x750.png" data-lightbox="gallery" data-title="Candyland School Students" download>
-                        <img src="https://placehold.jp/400x350.png" alt="Photo of a student in candyland School">
+                    <a href="https://cdn.discordapp.com/attachments/1045730053041946755/1103244653970604103/life-5.jpg" data-lightbox="gallery" data-title="Candyland School Students" download>
+                        <img src="images/g-3.jpg" alt="Photo of a student in candyland School">
                     </a>
                 </div>
                 <div class="gallery">
-                    <a href="https://placehold.jp/1200x750.png" data-lightbox="gallery" data-title="Candyland School Students" download>
-                        <img src="https://placehold.jp/400x350.png" alt="Photo of a student in candyland School">
+                    <a href="https://cdn.discordapp.com/attachments/1045730053041946755/1103244768168902666/foundation-2.jpeg" data-lightbox="gallery" data-title="Candyland School Students" download>
+                        <img src="images/g-4.jpg" alt="Photo of a student in candyland School">
                     </a>
                 </div>
                 <div class="gallery">
-                    <a href="https://placehold.jp/1200x750.png" data-lightbox="gallery" data-title="Candyland School Students" download>
-                        <img src="https://placehold.jp/400x350.png" alt="Photo of a student in candyland School">
+                    <a href="https://cdn.discordapp.com/attachments/1045730053041946755/1103244768974225450/foundation-3.jpeg" data-lightbox="gallery" data-title="Candyland School Students" download>
+                        <img src="images/g-5.jpg" alt="Photo of a student in candyland School">
                     </a>
                 </div>
                 <div class="gallery">

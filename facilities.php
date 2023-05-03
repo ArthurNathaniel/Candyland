@@ -20,7 +20,7 @@
   <div class="overflow-hidden">
     <?php include 'navbar.php'; ?>
     <div id="welcome-hero">
-      <div class="text-welcome">
+      <div class="text-mission">
         <h1 data-aos="zoom-in" data-aos-duration="1000">Facilities</h1>
         <p data-aos="zoom-in" data-aos-duration="1200">State-of-the-Art Facilities, Where Learning Meets Innovation.</p>
       </div>

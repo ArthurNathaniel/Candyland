@@ -23,7 +23,7 @@
   <div class="overflow-hidden">
     <?php include 'navbar.php'; ?>
     <div id="welcome-hero">
-      <div class="text-welcome">
+      <div class="text-ap">
         <h1 data-aos="zoom-in" data-aos-duration="1000">Admission Policy</h1>
         <p data-aos="zoom-in" data-aos-duration="1200">
           Learn more about our admission process and requirements to enroll

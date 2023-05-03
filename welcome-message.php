@@ -21,7 +21,7 @@
   <div class="overflow-hidden">
     <?php include 'navbar.php'; ?>
     <div id="welcome-hero">
-      <div class="text-welcome">
+      <div class="text-facilities">
         <h1 data-aos="zoom-in" data-aos-duration="1000">Welcome to Candyland School</h1>
         <p data-aos="zoom-in" data-aos-duration="1200">
           Join us on an exciting educational journey filled with endless <br>

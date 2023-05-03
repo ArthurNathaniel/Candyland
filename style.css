@@ -302,8 +302,8 @@ footer h3 {
 
 /* Welcome Message */
 .welcome-hero {
-    background-color: #f9f8f4;
-    /* background-image: url(./images/hero.jpg); */
+    /* background-color: #f9f8f4; */
+    background-image: url(./images/hero.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -313,7 +313,7 @@ footer h3 {
 }
 
 .text-welcome {
-    background-color: #f9f8f4;
+    background-image: url(./images/our-mission-bg.jpg);
     width: 100%;
     height: 530px;
     padding-left: 6%;
@@ -322,7 +322,103 @@ footer h3 {
     /* padding-top: 3%; */
     justify-content: center;
     align-self: center;
-    border: 2px solid;
+}
+
+.text-mission {
+    background-image: url(./images/welcome.jpg);
+    width: 100%;
+    height: 530px;
+    padding-left: 6%;
+    display: flex;
+    flex-direction: column;
+    /* padding-top: 3%; */
+    justify-content: center;
+    align-self: center;
+}
+
+.text-facilities {
+    background-image: url(./images/facilities.jpg);
+    width: 100%;
+    height: 530px;
+    padding-left: 6%;
+    display: flex;
+    flex-direction: column;
+    /* padding-top: 3%; */
+    justify-content: center;
+    align-self: center;
+}
+
+.text-jhs {
+    background-image: url(./images/jhs-bg.jpg);
+    width: 100%;
+    height: 530px;
+    padding-left: 6%;
+    display: flex;
+    flex-direction: column;
+    /* padding-top: 3%; */
+    justify-content: center;
+    align-self: center;
+}
+
+.text-primary- {
+    background-image: url(./images/primary-bg.jpg);
+    width: 100%;
+    height: 530px;
+    padding-left: 6%;
+    display: flex;
+    flex-direction: column;
+    /* padding-top: 3%; */
+    justify-content: center;
+    align-self: center;
+}
+
+.text-pre-school {
+    background-image: url(./images/pre-school-bg.jpg);
+    width: 100%;
+    height: 530px;
+    padding-left: 6%;
+    display: flex;
+    flex-direction: column;
+    /* padding-top: 3%; */
+    justify-content: center;
+    align-self: center;
+}
+
+.text-ad {
+    background-image: url(./images/ad-bg.jpg);
+    width: 100%;
+    height: 530px;
+    padding-left: 6%;
+    display: flex;
+    flex-direction: column;
+    /* padding-top: 3%; */
+    justify-content: center;
+    align-self: center;
+}
+
+.text-ap {
+    background-image: url(./images/ap-bg.jpg);
+    width: 100%;
+    height: 530px;
+    padding-left: 6%;
+    display: flex;
+    flex-direction: column;
+    /* padding-top: 3%; */
+    justify-content: center;
+    align-self: center;
+}
+
+.text-pg {
+    background-image: url(./images/pg-bg.jpg);
+    width: 100%;
+    height: 530px;
+    padding-left: 6%;
+    display: flex;
+    flex-direction: column;
+    /* padding-top: 3%; */
+    justify-content: center;
+    align-self: center;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px;
 }
 
 .welcome-message {
@@ -438,8 +534,9 @@ footer h3 {
 .gallery img {
     width: 100%;
 }
+
 /* Academics */
-.academics{
+.academics {
     padding: 0 5%;
     margin-top: 50px;
 }
@@ -470,13 +567,14 @@ footer h3 {
 }
 
 .me-form {
-        background-color: #f8f8f8;
+    background-color: #f8f8f8;
     padding: 50px;
     box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
 }
 
 .boxes {
-    background-color: #f8f8f8;    padding: 30px;
+    background-color: #f8f8f8;
+    padding: 30px;
     margin-left: 5%;
     width: 92%;
     margin-bottom: 30px;
@@ -486,7 +584,7 @@ footer h3 {
 .submit {
     padding: 15px 55px;
     border-radius: 5px;
-    background-color:#203b68;
+    background-color: #203b68;
     color: #fff;
 }
 
@@ -495,10 +593,11 @@ footer h3 {
     margin-left: 1%;
 }
 
-.map{
+.map {
     margin-top: 100px;
     padding: 0 5%;
 }
+
 @media only screen and (max-width: 1200px) {
 
     .btn-contact {
@@ -692,37 +791,42 @@ footer h3 {
     }
 
     /* facilities */
-.heading-facilities h3 {
-    background-color: #725efe;
-    padding: 15px;
-    width: 100%;
-}
+    .heading-facilities h3 {
+        background-color: #725efe;
+        padding: 15px;
+        width: 100%;
+    }
 
-/* Photo gallery */
-.photo{
-    display: block;
-    width: 100%;
-    margin: 0 auto;
-}
-.gallery{
-    display: block;
+    /* Photo gallery */
+    .photo {
+        display: block;
         width: 100%;
         margin: 0 auto;
-}
-.gallery img{
-    margin-top: 40px;
-}
-.contact-form{
-    display: block;
+    }
+
+    .gallery {
+        display: block;
         width: 100%;
         margin: 0 auto;
-}
-.me-form{
-    display: block;
-    width: 100%;
-    margin: 0 auto;
-}
-.mee{
-    width: 100%;
-}
+    }
+
+    .gallery img {
+        margin-top: 40px;
+    }
+
+    .contact-form {
+        display: block;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .me-form {
+        display: block;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .mee {
+        width: 100%;
+    }
 }
