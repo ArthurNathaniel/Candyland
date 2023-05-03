@@ -23,7 +23,7 @@
     <div class="overflow-hidden">
         <?php include 'navbar.php'; ?>
         <div id="welcome-hero">
-            <div class="text-welcome">
+            <div class="text-contact">
                 <h1 data-aos="zoom-in" data-aos-duration="1000">Contact Us</h1>
             </div>
         </div>
