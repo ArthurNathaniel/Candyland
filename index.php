@@ -32,7 +32,7 @@
           <h2>Our Academics</h2>
           <p>
             Our rigorous academic programs are designed to challenge and
-            inspire students to achieve their full potential
+            inspire students to achieve their full potential.
           </p>
         </div>
         <div class="col-md-8 group" data-aos="fade-down" data-aos-duration="1000">
@@ -41,7 +41,7 @@
             <h2>Pre-School</h2>
             <p>
               Our nurturing preschool program fosters a love of learning and
-              prepares young students for success in school and life
+              prepares young students for success in school and life.
             </p>
           </div>
           <div class="box">

@@ -2,7 +2,9 @@
     <div class="container">
         <div class="row footer">
             <div class="col-md-3 foot">
-                <img src="images/logo.png" alt="Candyland School Logo" class="img-fluid">
+                <a href="index.php">
+                    <img src="images/logo.png" alt="Candyland School Logo" class="img-fluid">
+                </a>
             </div>
             <div class="col-md-3 foot">
                 <h3>Contact Us</h3>
