@@ -6,5 +6,9 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
 <!--Animate On scroll-->
 <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+<!--Lightbox CDN-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.1/css/lightbox.min.css" />
+
 <!--Custom CSS-->
 <link rel="stylesheet" href="style.css" />
