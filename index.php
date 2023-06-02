@@ -36,7 +36,7 @@
           </p>
         </div>
         <div class="col-md-8 group" data-aos="fade-down" data-aos-duration="1000">
-          <div class="box">
+          <div class="box baby">
             <h1><i class="fas fa-baby"></i></h1>
             <h2>Pre-School</h2>
             <p>
@@ -44,7 +44,7 @@
               prepares young students for success in school and life.
             </p>
           </div>
-          <div class="box">
+          <div class="box pencil">
             <h1><i class="fas fa-pencil-alt"></i></h1>
             <h2>Primary</h2>
             <p>
@@ -52,7 +52,7 @@
               and emphasizes critical thinking and problem-solving skills.
             </p>
           </div>
-          <div class="box">
+          <div class="box pen">
             <h1><i class="fas fa-graduation-cap"></i></h1>
             <h2>JHS</h2>
             <p>
