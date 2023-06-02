@@ -36,30 +36,36 @@
           </p>
         </div>
         <div class="col-md-8 group" data-aos="fade-down" data-aos-duration="1000">
-          <div class="box baby">
-            <h1><i class="fas fa-baby"></i></h1>
-            <h2>Pre-School</h2>
-            <p>
-              Our nurturing pre-school program fosters a love of learning and
-              prepares young students for success in school and life.
-            </p>
-          </div>
-          <div class="box pencil">
-            <h1><i class="fas fa-pencil-alt"></i></h1>
-            <h2>Primary</h2>
-            <p>
-              Our primary school provides a strong foundation in core subjects
-              and emphasizes critical thinking and problem-solving skills.
-            </p>
-          </div>
-          <div class="box pen">
-            <h1><i class="fas fa-graduation-cap"></i></h1>
-            <h2>JHS</h2>
-            <p>
-              Our high school offers a challenging and comprehensive
-              curriculum that prepares students for senior high and beyond.
-            </p>
-          </div>
+          <a href="pre-school.php">
+            <div class="box baby">
+              <h1><i class="fas fa-baby"></i></h1>
+              <h2>Pre-School</h2>
+              <p>
+                Our nurturing pre-school program fosters a love of learning and
+                prepares young students for success in school and life.
+              </p>
+            </div>
+          </a>
+          <a href="primary.php">
+            <div class="box pencil">
+              <h1><i class="fas fa-pencil-alt"></i></h1>
+              <h2>Primary</h2>
+              <p>
+                Our primary school provides a strong foundation in core subjects
+                and emphasizes critical thinking and problem-solving skills.
+              </p>
+            </div>
+          </a>
+          <a href="jhs.php">
+            <div class="box pen">
+              <h1><i class="fas fa-graduation-cap"></i></h1>
+              <h2>JHS</h2>
+              <p>
+                Our high school offers a challenging and comprehensive
+                curriculum that prepares students for senior high and beyond.
+              </p>
+            </div>
+          </a>
         </div>
       </div>
     </section>
@@ -115,10 +121,77 @@
           <br />
           <br />
 
-          <a href="" class="access-btn" data-aos="fade-down-right">Read more</a>
+          <a href="" class="access-btn" data-aos="fade-down-right" onclick="sendMail()" data-bs-toggle="modal" data-bs-target="#myModal">Read more</a>
+
         </div>
       </div>
     </section>
+
+
+    <!-- The Modal -->
+    <div class="modal" id="myModal">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+
+          <!-- Modal Header -->
+          <div class="modal-header">
+            <h4 class="modal-title">
+              We strive to provide a top-notch global educational center.
+            </h4>
+            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+          </div>
+
+          <!-- Modal body -->
+          <div class="modal-body">
+            <p> <i class="fa-sharp fa-solid fa-circle-check" style="font-size: 20px;"></i> Excellence: We
+              strive for the highest quality in education, ensuring our students receive the
+              best possible learning experience.</p>
+            <p>
+              <i class="fa-sharp fa-solid fa-circle-check" style="font-size: 20px;"></i>
+              Innovation: We foster a culture of creativity and constantly seek new and improved methods of
+              teaching and learning to stay ahead of the curve.
+            </p>
+            <p>
+              <i class="fa-sharp fa-solid fa-circle-check" style="font-size: 20px;"></i>
+              Critical Thinking: We encourage our students to think analytically, evaluate information, and
+              develop well-reasoned judgments and solutions.
+            </p>
+            <p>
+              <i class="fa-sharp fa-solid fa-circle-check" style="font-size: 20px;"></i>
+              Problem Solving: Our students are equipped with the skills to identify, analyze, and solve
+              complex problems effectively and efficiently.
+            </p>
+            <p>
+              <i class="fa-sharp fa-solid fa-circle-check" style="font-size: 20px;"></i>
+              Creativity: We inspire and cultivate the imagination and originality of our students,
+              encouraging them to think outside the box and explore innovative ideas.
+            </p>
+            <p>
+              <i class="fa-sharp fa-solid fa-circle-check" style="font-size: 20px;"></i>
+              Collaboration: We promote teamwork and cooperative learning, enabling our students to
+              effectively work together, share ideas, and achieve common goals.
+            </p>
+            <p>
+              <i class="fa-sharp fa-solid fa-circle-check" style="font-size: 20px;"></i>
+              Communication: We emphasize effective verbal and written communication skills, enabling
+              our students to express themselves clearly and confidently.
+            </p>
+            <p>
+              <i class="fa-sharp fa-solid fa-circle-check" style="font-size: 20px;"></i>
+              Leadership: We develop the qualities of leadership in our students, empowering them to
+              take initiative, make responsible decisions, and positively influence others.
+            </p>
+          </div>
+
+          <!-- Modal footer -->
+          <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
 
     <section>
       <div class="philosophy row gy-5">

@@ -5,6 +5,11 @@ body {
     background-color: #ffffff;
 }
 
+
+*{
+    text-decoration: none !important;
+}
+
 .navbar {
     padding: 0 5%;
     background-color: #f9f8f4;
@@ -96,9 +101,12 @@ body {
     background-color:#057ade ;
     color: #fff;
 }
+
+
 .pencil{
     /* background-color: #fecf5d; */
     /* border: 2px solid gray; */
+    color: #000;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
