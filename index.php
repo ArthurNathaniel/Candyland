@@ -11,16 +11,16 @@
     <?php include 'navbar.php'; ?>
     <div id="hero">
       <div class="text-home">
-        <h1 data-aos="zoom-in" data-aos-duration="1000">
+        <h1 data-aos="zoom-in" data-aos-duration="500">
           Better future
           <br />
           for your kids
         </h1>
-        <p data-aos="zoom-in" data-aos-duration="2000">
+        <p data-aos="zoom-in" data-aos-duration="600">
           We just don't give our students only lecture but real life <br />
           experiment, workshops & field experience.
         </p>
-        <div class="admission-btn" data-aos="zoom-in" data-aos-duration="3000">
+        <div class="admission-btn" data-aos="zoom-in" data-aos-duration="800">
           <a href="" class="admission-btn-"><i class="fas fa-user-graduate"></i> Admission</a>
         </div>
       </div>
