@@ -51,7 +51,7 @@
       </div>
     </section>
 
-    <div class="photo">
+    <!-- <div class="photo">
       <div class="gallery">
         <a href="https://placehold.jp/1200x750.png" data-lightbox="gallery" data-title="Candyland School Students" download>
           <img src="https://placehold.jp/400x350.png" alt="Photo of a student in candyland School" />
@@ -69,7 +69,7 @@
           <img src="https://placehold.jp/400x350.png" alt="Photo of a student in candyland School" />
         </a>
       </div>
-    </div>
+    </div> -->
 
     <?php include 'call-to-action.php'; ?>
     <?php include 'footer.php'; ?>

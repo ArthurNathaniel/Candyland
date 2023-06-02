@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg  ">
+<nav class="navbar navbar-expand-lg">
     <div class="container-fluid">
         <a class="navbar-brand" href="index.php">
             <img src="images/logo.png" alt="cindyland-logo">

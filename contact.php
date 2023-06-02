@@ -25,39 +25,67 @@
         <section>
             <div class="row gy-5 contact-form">
                 <div class="col-md-8 mee">
-                    <form action="" class="row me-form">
+                    <form action="" class="row me-form" onclick="preventReload(event)">
                         <div class="col-md-12" style="margin-bottom: 20px;">
                             <h3>Send Message</h3>
 
                         </div>
                         <div class="form_group col-md-6 mee">
 
-                            <input type="text" placeholder="Your Name" required>
+                            <input type="text" id="name" placeholder="Your Name" required>
                         </div>
 
                         <div class="form_group col-md-6 mee">
 
-                            <input type="email" placeholder="Email" required>
+                            <input type="email" id="email" placeholder="Email" required>
                         </div>
 
                         <div class="form_group col-md-6 mee">
 
-                            <input type="number" min="0" placeholder="Phone Number" required>
+                            <input type="number" min="0" id="number" placeholder="Phone Number" required>
                         </div>
                         <div class="form_group col-md-6 mee">
 
-                            <input type="text" placeholder="Subject" required>
+                            <input type="text" id="subject" placeholder="Subject" required>
                         </div>
                         <div class="form_group col-md-12">
 
                             <textarea id="message" placeholder="Message" required></textarea>
                         </div>
 
-                        <input type="submit" class="submit" value="Send Message">
+                        <input type="submit" class="submit" value="Send Message" onclick="sendMail()" data-bs-toggle="modal" data-bs-target="#myModal">
 
                     </form>
                 </div>
+                <!-- The Modal -->
+                <div class="modal" id="myModal">
+                    <div class="modal-dialog modal-sm">
+                        <div class="modal-content">
 
+                            <!-- Modal Header -->
+                            <div class="modal-header">
+                                <h4 class="modal-title"><i class="fas fa-envelope"></i>
+                                    Success!
+                                </h4>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                            </div>
+
+                            <!-- Modal body -->
+                            <div class="modal-body">
+
+                                <p style="text-align: center;"> <strong id="user"></strong>,
+                                    Your message has been sent successfully. Thank you for contacting us!
+                                </p>
+                            </div>
+
+                            <!-- Modal footer -->
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
 
                 <div class="col-md-4 mee">
                     <div class="row">
@@ -100,6 +128,47 @@
 
         <?php include 'footer.php'; ?>
     </div>
+
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+    </script>
+    <script>
+        preventReload = (event) => {
+            event.preventDefault();
+        }
+    </script>
+    <script type="text/javascript">
+        (function() {
+            emailjs.init("LNx4rY97eNeEKVWyG");
+        })();
+    </script>
+    <script>
+        sendMail = () => {
+            var params = {
+                name: document.getElementById('name').value,
+                number: document.getElementById('number').value,
+                email: document.getElementById('email').value,
+                subject: document.getElementById('subject').value,
+                message: document.getElementById('message').value,
+            }
+
+            const serviceID = 'service_h4p75wb'
+            const templateID = 'template_r61ezzn'
+
+
+            document.getElementById('user').innerHTML = document.getElementById('name').value
+            emailjs.send(serviceID, templateID, params)
+                .then(() => {
+                    console.log('successfully');
+                    document.getElementById('name').value = '',
+                        document.getElementById('number').value = '',
+                        document.getElementById('email').value = '',
+                        document.getElementById('subject').value = '',
+                        document.getElementById('message').value = ''
+                })
+        }
+    </script>
+
 
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>

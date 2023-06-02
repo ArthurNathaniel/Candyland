@@ -10,7 +10,7 @@
                 <h3>Contact Us</h3>
                 <ul class="list-unstyled lh">
                     <li><a href="https://goo.gl/maps/DhmLTdH4rfLu9vyS8"><i class="fas fa-map-marker-alt "></i> Ejisu near bestheda baptist church </a></li>
-                    <li><a href=""><i class="fas fa-envelope "></i> candylandbabyworld@yahoo.com</a></li>
+                    <li><a href=""><i class="fas fa-envelope "></i> </a></li>
                     <li><a href=""><i class="fas fa-phone "></i>+233 000 000 000</a></li>
                     <li><a href=""><i class="fas fa-phone "></i>+233 000 000 000</a></li>
                 </ul>
