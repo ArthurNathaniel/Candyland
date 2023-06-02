@@ -40,7 +40,7 @@
             <h1><i class="fas fa-baby"></i></h1>
             <h2>Pre-School</h2>
             <p>
-              Our nurturing preschool program fosters a love of learning and
+              Our nurturing pre-school program fosters a love of learning and
               prepares young students for success in school and life.
             </p>
           </div>
