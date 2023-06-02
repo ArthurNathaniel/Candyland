@@ -1,37 +1,94 @@
-<footer class=" pt-4 pb-2">
-    <div class="container">
-        <div class="row footer">
-            <div class="col-md-3 foot">
-                <a href="index.php">
-                    <img src="images/logo.png" alt="Candyland School Logo" class="img-fluid">
-                </a>
+<footer>
+    <div class="row ft">
+        <div class="col-md-4 ">
+            <div class="ft-logo">
+
             </div>
-            <div class="col-md-3 foot">
-                <h3>Contact Us</h3>
-                <ul class="list-unstyled lh">
-                    <li><a href="https://goo.gl/maps/DhmLTdH4rfLu9vyS8"><i class="fas fa-map-marker-alt "></i> Ejisu near bestheda baptist church </a></li>
-                    <li><a href=""><i class="fas fa-envelope "></i> </a></li>
-                    <li><a href=""><i class="fas fa-phone "></i>+233 000 000 000</a></li>
-                    <li><a href=""><i class="fas fa-phone "></i>+233 000 000 000</a></li>
-                </ul>
-            </div>
-            <div class="col-md-3 foot">
-                <h3>Quick Links</h3>
-                <ul class="list-unstyled lh">
-                    <li><a href="mission.php">Our Vision & Mission</a></li>
-                    <li><a href="welcome-message.php">Welcome Message</a></li>
-                    <li><a href="facilities.php">Facilities</a></li>
-                    <li><a href="gallery.php">Photo Gallery</a></li>
-                </ul>
-            </div>
-            <div class="col-md-3 foot">
-                <h3>Connect with Us</h3>
-                <ul class="list-inline lh">
-                    <li class="list-inline-item"><a href="#"><i class="fab fa-facebook-f" style="font-size: 30px;"></i></a></li>
-                    <li class="list-inline-item"><a href="#"><i class="fab fa-twitter" style="font-size: 30px;"></i></a></li>
-                    <li class="list-inline-item"><a href="#"><i class="fab fa-instagram" style="font-size: 30px;"></i></a></li>
-                </ul>
+            <h4>CONTACT</h4>
+            <p><a href="mailto:"><i class="far fa-envelope"></i> info@candyland.edu.gh</a></p>
+        </div>
+        <div class="col-md-3 ft-down">
+            <h2>Our Academics</h2>
+            <p><a href="pre-school.php">Our Pre-school</a></p>
+            <p><a href="primary.php">Our Primary</a></p>
+            <p><a href="jhs.php">Our JHS</a></p>
+
+        </div>
+        <div class="col-md-2 ft-down">
+            <h2> Admissions</h2>
+            <p><a href="admission-policy.php">Admission Policy</a></p>
+            <p><a href="admission-procedures.php">Admission Procedures</a></p>
+            <p><a href="contact.php">Contact Us</a></p>
+
+        </div>
+        <div class="col-md-2 ft-down">
+            <h2>Follow Us</h2>
+            <div class="media">
+                <a href=""><i class="fab fa-facebook a"></i></a>
+                <a href=""><i class="fab fa-twitter a"></i></a>
+                <a href=""><i class="fab fa-instagram a"></i></a>
             </div>
         </div>
     </div>
 </footer>
+
+<style>
+    footer {
+        padding: 0 5%;
+        background-color: #f9f8f4;
+    }
+
+    a {
+        color: #000;
+    }
+
+    .ft-logo {
+        width: 270px;
+        height: 150px;
+        background-image: url(./images/Candyland_school_logo.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-bottom: 10px;
+    }
+
+    footer h4 {
+        font-weight: 300;
+    }
+
+    .ft-down {
+        padding-top: 55px;
+    }
+
+    .ft-down p {
+        margin-top: 20px;
+        color: #132943;
+    }
+
+    .fab {
+
+        text-align: center;
+        border-radius: 50%;
+        height: 40px;
+        width: 40px;
+        color: #fff;
+        background-color: #132943;
+    }
+
+    .ft-down i {
+        padding-top: 11px;
+    }
+
+    @media only screen and (max-width: 1200px) {
+        .ft{
+            display: block;
+            width: 100%;
+            margin: 0 auto;
+        }
+        .ft-down{
+            display: block;
+            width: 100%;
+            margin: 0 auto;
+        }
+    }
+</style>

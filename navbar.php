@@ -1,7 +1,7 @@
 <nav class="navbar navbar-expand-lg">
     <div class="container-fluid">
-        <a class="navbar-brand" href="index.php">
-            <img src="images/logo.png" alt="cindyland-logo">
+        <a class="navbar-brand navbar-logo" href="index.php">
+            <!-- <img src="images/logo.png" alt="cindyland-logo"> -->
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -51,10 +51,28 @@
                     <a class="nav-link " aria-current="page" href="contact.php">Contact Us</a>
                 </li>
             </ul>
-            
+
             <!-- <div class="btn-contact">
                 <a href="">Enroll Now</a>
             </div> -->
         </div>
     </div>
 </nav>
+
+<style>
+    .navbar .nav-link,
+    .navbar .dropdown-item {
+        color: black;
+        background-color: transparent;
+        border-color: transparent;
+    }
+
+    .navbar-logo{
+        width: 170px;
+        height: 70px;
+        background-image: url(./images/Candyland_school_logo.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+</style>
