@@ -19,11 +19,29 @@
 
       </div>
     </div>
+    <style>
+      .welcome-image {
+        /* border: 2px solid #000; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
 
+      .welcome-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      .welcome-text h2{
+        width: 100%;
+      }
+    </style>
     <section>
       <div class="welcome-message row gy-5">
         <div class="welcome-image col-md-6" data-aos="fade-up-right" data-aos-duration="1000">
-          <img src="images/mistress-candyland.png" alt="school-principal or head master image" />
+          <img src="images/candy_head.png" alt="school-principal or head master image" />
         </div>
         <div class="welcome-text col-md-6" data-aos="fade-up-left" data-aos-duration="1000">
           <h2>Welcome Message from the Principal</h2>
