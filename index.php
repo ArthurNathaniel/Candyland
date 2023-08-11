@@ -4,6 +4,7 @@
 <head>
   <?php include 'meta.php'; ?>
   <?php include 'cdn.php'; ?>
+  <!-- <link rel="icon" href="./images/logo.png" type="image/png"> -->
 </head>
 
 <body>
@@ -21,7 +22,7 @@
           experiment, workshops & field experience.
         </p>
         <div class="admission-btn" data-aos="zoom-in" data-aos-duration="800">
-          <a href="" class="admission-btn-"><i class="fas fa-user-graduate"></i> Admission</a>
+          <a href="admission-procedures.php" class="admission-btn-"><i class="fas fa-user-graduate"></i> Admission</a>
         </div>
       </div>
     </div>

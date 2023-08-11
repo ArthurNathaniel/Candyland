@@ -139,7 +139,7 @@
     </script>
     <script type="text/javascript">
         (function() {
-            emailjs.init("LNx4rY97eNeEKVWyG");
+            emailjs.init("PRYDegR7pwKQEHgzb");
         })();
     </script>
     <script>
@@ -152,8 +152,8 @@
                 message: document.getElementById('message').value,
             }
 
-            const serviceID = 'service_h4p75wb'
-            const templateID = 'template_r61ezzn'
+            const serviceID = 'service_jijdq3b'
+            const templateID = 'template_soah3vy'
 
 
             document.getElementById('user').innerHTML = document.getElementById('name').value
