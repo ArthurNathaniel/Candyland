@@ -105,7 +105,7 @@
 
                         <div class="col-md-12 boxes mee">
                             <h6>Email Address:</h6>
-                            <p><a href="mailto:info@candylandschool.org" style="text-decoration: none; color:#000;"> <i class="fas fa-envelope"></i>info@candylandschool.org</a></p>
+                            <p><a href="mailto:info@candylandschool.org" style="text-decoration: none; color:#000;"> <i class="fas fa-envelope"></i> info@candylandschool.org</a></p>
                         </div>
 
                         <div class="col-md-12 boxes mee">
