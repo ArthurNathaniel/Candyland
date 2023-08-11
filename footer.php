@@ -5,7 +5,7 @@
 
             </div>
             <h4>CONTACT</h4>
-            <p><a href="mailto:"><i class="far fa-envelope"></i> info@candyland.edu.gh</a></p>
+            <p><a href="mailto:info@candylandschool.org"><i class="far fa-envelope"></i> info@candylandschool.org</a></p>
         </div>
         <div class="col-md-3 ft-down">
             <h2>Our Academics</h2>
@@ -24,9 +24,9 @@
         <div class="col-md-2 ft-down">
             <h2>Follow Us</h2>
             <div class="media">
-                <a href=""><i class="fab fa-facebook a"></i></a>
-                <a href=""><i class="fab fa-twitter a"></i></a>
-                <a href=""><i class="fab fa-instagram a"></i></a>
+                <a href="https://web.facebook.com/CLEC11/?_rdc=1&_rdr"><i class="fab fa-facebook a"></i></a>
+                <a href="https://twitter.com/CandylandEdu"><i class="fab fa-twitter a"></i></a>
+                <a href="http://instagram.com/candylandeducationalcomplex/"><i class="fab fa-instagram a"></i></a>
             </div>
         </div>
     </div>
@@ -80,12 +80,13 @@
     }
 
     @media only screen and (max-width: 1200px) {
-        .ft{
+        .ft {
             display: block;
             width: 100%;
             margin: 0 auto;
         }
-        .ft-down{
+
+        .ft-down {
             display: block;
             width: 100%;
             margin: 0 auto;

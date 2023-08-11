@@ -92,20 +92,20 @@
                         <div class="col-md-12 boxes mee">
                             <h6>Phone Number:</h6>
                             <p>
-                                <a href="tel:+233556120878" style="text-decoration:none; color:#000;">
+                                <a href="tel:+233549209551" style="text-decoration:none; color:#000;">
                                     <i class="fas fa-phone-alt"></i>
-                                    +233 000 000 000
+                                    +233 54 920 9551
                                 </a>
                             </p>
-                            <p> <a href="tel: +233559558041" style="text-decoration:none; color:#000;">
+                            <p> <a href="tel: +233249271941" style="text-decoration:none; color:#000;">
                                     <i class=" fas fa-phone-alt"></i>
-                                    +233 000 000 000
+                                    +233 24 927 1941
                                 </a></p>
                         </div>
 
                         <div class="col-md-12 boxes mee">
                             <h6>Email Address:</h6>
-                            <p><a href="mailto:" style="text-decoration: none; color:#000;"> <i class="fas fa-envelope"></i>candylandbabyworld@yahoo.com</a></p>
+                            <p><a href="mailto:info@candylandschool.org" style="text-decoration: none; color:#000;"> <i class="fas fa-envelope"></i>info@candylandschool.org</a></p>
                         </div>
 
                         <div class="col-md-12 boxes mee">
